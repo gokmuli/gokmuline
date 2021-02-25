@@ -1,0 +1,36 @@
+#head {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header_all {
+  width: inherit; /* width:100% 상속*/
+  height: 80px;
+  background: #fff;
+  position: fixed; /*상단메뉴고정*/
+}
+
+.header_logo {
+  font-size: var(--font-large);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-navy);
+}
+
+.header_logo i {
+  float: left;
+  padding-right: 20px;
+}
+
+.header_nav {
+  text-align: right;
+}
+
+.header_nav a {
+  text-decoration: none;
+  color: var(--color-navy);
+}
+
+/* Header < main center < bg img, icon, caption */
+.header_bg {
+  background: url(../image/backbg.png) center/cover no-repeat;
+}
