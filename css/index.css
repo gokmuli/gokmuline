@@ -23,7 +23,7 @@
   /* Font size */
   --font-large: 34px;
   --font-medium: 28px;
-  --font-regular: 18px;
+  --font-regular: 20px;
   --font-small: 16px;
   --font-micro: 14px;
 
@@ -38,17 +38,6 @@
   /*Annimation*/
   --animation-duration: 300ms;
 }
-
-/* 전체 사이즈 */
-#wrap {
-  width: 100%;
-}
-
-header,
-section,
-footer {
-  width: inherit;
-} /*위 부모요소의 값을 상속*/
 
 /* 화면 폰트 */
 body {
