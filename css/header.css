@@ -85,22 +85,58 @@ a {
 }
 
 /* 배경 */
-#main_ba {
-  width: 100%;
-  height: 500px;
-  margin-top: 10px;
+#main_bg {
+  background: url(../image/backbg.png) center/cover no-repeat;
+  padding: 30px;
+  text-align: center;
 }
 
-.bg_img {
-  width: 100%;
+.bg {
+  width: 1100px;
   height: 500px;
   margin: 0 auto;
-  background: url(../image/backbg.png);
 }
 
-.bg_icon_go {
-  width: 200px;
-  height: 200px;
+.bg .bg_icon_go {
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   border: 2px solid var(--color-light-white);
+}
+
+.hobby {
+  width: 1100px;
+  height: 250px;
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.hobby_icon {
+  width: 180px;
+  height: 180px;
+  line-height: 180px;
+  font-size: 90px;
+  color: var(--color-light-white);
+  border: 1px solid var(--color-light-white);
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+
+.hobby_icon:hover i {
+  color: var(--color-pink);
+  transform: rotate(-30deg) scale(1.1);
+}
+
+.hobby_description,
+.hobby_title {
+  color: var(--color-light-white);
+}
+
+.hobby_title {
+  font-size: var(--font-medium);
+}
+
+.hobby_description {
+  font-size: var(--font-small);
 }
