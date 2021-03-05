@@ -1,3 +1,7 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
 /* subpage ba */
 #subpage_bg {
   background: url(../image/backbg.png) center/cover no-repeat;
