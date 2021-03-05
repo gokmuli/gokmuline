@@ -28,8 +28,9 @@ header {
   border: none;
 }
 
-.util .utilMenu li:hover {
+.util .utilMenu li:hover a {
   font-weight: bold;
+  color: var(--color-pink);
 }
 
 /* 메뉴 */
@@ -46,14 +47,16 @@ header {
 
 .header_in .logo {
   float: left;
-  margin-top: 10px;
   font-size: var(--font-medium);
+  width: 100px;
+  height: 60px;
 }
 
 .logo i,
 .logo a {
   float: left;
   color: var(--color-navy);
+  line-height: 60px;
 }
 
 .logo a {
@@ -66,22 +69,23 @@ header {
 
 .header_in .menu li {
   float: left;
+  width: 100px;
 }
 
 .header_in .menu li a {
   display: block;
-  width: 100px;
+  width: 80px;
   height: 60px;
   line-height: 60px;
+  margin: 0 auto;
   text-align: center;
   color: var(--color-navy);
   font-size: 22px;
 }
 
 .header_in .menu li a:hover {
-  background: var(--color-navy);
-  color: var(--color-white);
-  border-radius: 10%;
+  color: var(--color-pink);
+  font-weight: bold;
 }
 
 /* 배경 */
